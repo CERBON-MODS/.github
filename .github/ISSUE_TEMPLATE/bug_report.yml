@@ -12,7 +12,7 @@ body:
     id: mc_version
     attributes:
       label: Versão do Minecraft
-      description: Qual versão do Minecraft você está rodando? (Ex: 1.20.4, 1.21)
+      description: Qual versão do Minecraft você está rodando?
       placeholder: "1.21.1"
     validations:
       required: true
