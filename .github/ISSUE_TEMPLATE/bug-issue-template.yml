@@ -5,16 +5,10 @@ labels: ["bug"]
 assignees:
   - CerbonXD
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Before submitting the issue
-        Please make sure you have checked the following before submitting your issue.
-
   - type: checkboxes
     id: pre_checks
     attributes:
-      label: Pre-flight Checks
+      label: Before submitting the issue
       options:
         - label: "**I have checked that the bug is not a duplicate or, if it is, it needs to be reopened**"
           required: true
@@ -24,6 +18,10 @@ body:
           required: true
         - label: "**I have read the [contributing guidelines](https://github.com/CERBON-MODS/.github/blob/master/CONTRIBUTING.md#issues) and I agree with the [Code of Conduct](https://github.com/CERBON-MODS/.github/blob/master/CODE_OF_CONDUCT.md)**"
           required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: dropdown
     id: loader
@@ -37,6 +35,10 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: input
     id: loader_version
     attributes:
@@ -44,6 +46,10 @@ body:
       description: "Please provide the version of the loader (e.g., 47.2.0 for Forge)."
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: input
     id: mc_version
@@ -53,6 +59,10 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: textarea
     id: description
     attributes:
@@ -60,6 +70,10 @@ body:
       description: A clear and concise description of what the bug is.
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: textarea
     id: reproduce
@@ -74,6 +88,10 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: textarea
     id: expected
     attributes:
@@ -81,6 +99,10 @@ body:
       description: A clear and concise description of what you expected to happen.
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: textarea
     id: screenshots
@@ -90,6 +112,10 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: textarea
     id: logs
     attributes:
@@ -98,6 +124,10 @@ body:
       render: log
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
 
   - type: textarea
     id: context
