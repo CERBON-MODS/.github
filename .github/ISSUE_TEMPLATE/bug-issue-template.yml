@@ -1,6 +1,6 @@
-name: BUG/ISSUE Template
+name: Bug/Issue
 description: Use this template if you’ve discovered a bug or are experiencing an issue.
-title: "[BUG/ISSUE] [<Minecraft/Loader Version>] -"
+title: "[BUG/ISSUE] [<Minecraft Version>] -"
 labels: ["bug"]
 assignees:
   - CerbonXD
@@ -12,7 +12,7 @@ body:
       options:
         - label: "**I have checked that the bug is not a duplicate or, if it is, it needs to be reopened**"
           required: true
-        - label: "**I have checked that I am running the latest version of Bosses of Mass Destruction Mod**"
+        - label: "**I have checked that I am running the latest version of the Mod**"
           required: true
         - label: "**I have checked the [FAQ](https://github.com/CERBON-MODS/.github/blob/master/FAQ.md) section for solutions**"
           required: true
