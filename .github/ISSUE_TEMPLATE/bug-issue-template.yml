@@ -23,11 +23,12 @@ body:
     id: loader
     attributes:
       label: Mod Loader
-      description: "Select the mod loader you are using."
+      description: "Select the mod loader you noticed the issue."
       options:
         - Forge
         - Fabric
         - NeoForge
+        - All
     validations:
       required: true
 
